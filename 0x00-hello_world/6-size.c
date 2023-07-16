@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - print the size of data consumed per machine
+ * description:show bytes taken per machine
  * Return: always 0 (success)
  */
 int main(void)
@@ -9,7 +10,6 @@ int main(void)
 	int b;
 	long int c;
 	long long int d;
-
 	float e;
 
 	printf("Size of a char: %lu  byte(s)\n", (unsigned long)sizeof(a));
