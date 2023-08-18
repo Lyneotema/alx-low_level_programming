@@ -2,10 +2,10 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_numbers - print no.s followed by New line.
- * @separator: prints this string between numbers 
- * @n: no. of int passed to function
- * @...: number of numbers to be printed.
+ * print_numbers - print no.s followed by new line
+ * @separator: prints this string btwn numbers
+ * @n: number of int passed to function
+ * @...: number of numbers to be printed
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
